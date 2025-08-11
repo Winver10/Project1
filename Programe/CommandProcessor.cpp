@@ -11,7 +11,6 @@ std::string CommandProcessor::processInput(const std::string& input) {
         running = false;
         return "The system has encountered an error, please restart.";
     }
-    // ???????????????
     if (!waitingCommand.empty()) {
         if (waitingCommand == "exit") {
             waitingCommand = "";

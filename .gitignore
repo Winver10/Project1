@@ -1,0 +1,13 @@
+# VS临时文件
+.vs/
+*.vsidx
+*.suo
+*.user
+*.filters
+*.sdf
+*.opensdf
+Debug/
+Release/
+x64/
+x86/
+ipch/
