@@ -127,6 +127,7 @@
     <ClCompile Include="exitProcessor.cpp" />
     <ClCompile Include="gotoProcessor.cpp" />
     <ClCompile Include="helpProcessor.cpp" />
+    <ClCompile Include="openProcessor.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Start.cpp" />
     <ClCompile Include="whereProcessor.cpp" />
@@ -136,6 +137,7 @@
     <ClInclude Include="exitProcessor.h" />
     <ClInclude Include="gotoProcessor.h" />
     <ClInclude Include="helpProcessor.h" />
+    <ClInclude Include="openProcessor.h" />
     <ClInclude Include="Start.h" />
     <ClInclude Include="whereProcessor.h" />
   </ItemGroup>
@@ -144,6 +146,10 @@
       <SubType>
       </SubType>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="canBeOpened.txt" />
+    <Text Include="Smile.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

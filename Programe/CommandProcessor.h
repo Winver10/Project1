@@ -11,6 +11,7 @@ public:
     CommandProcessor();
     std::string gotoWhere(const std::string& input);
     std::string processInput(const std::string& input);
+    std::string openWhat(const std::string& input);
     bool isRunning() const;
     int getWhere() const;
     friend std::string handleExitCommand(CommandProcessor&, const std::string&, std::string&, bool&);

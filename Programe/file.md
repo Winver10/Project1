@@ -16,12 +16,15 @@ You can use the commands to open *all of the forders* and *files* in the game. T
 **exit**, to exit the game, but you need the *passkey*;<br>
 **goto**, to open a forder, or you can type "**goto *forder name***" to open faster;<br>
 **where**, to show the current forder you are in and what files in it;<br>
+**open**, to open the files with the default program.<br>
 
 ## others
 
 There is no file can be opened in it, because I **can't** make files. I'm thinking how to store them and how to open. I don't want to see another **window** when I opena file. 
 
-Another thing is, I a green hand of C++ *(Yes, it been made by Visul C++/CLI)*, so I can't add more features in it. It's the reason of I put it on **GitHub**. 
+*(At the last, I choose open the files with another window. I belive there is a better way, but I can't find it)*
+
+Another thing is, I a green hand of C++ *(Yes, it been made by Visual C++/CLI)*, so I can't add more features in it. It's the reason of I put it on **GitHub**. 
 
 And, if you can help me to build it, pleas contect me at <cty11072011@outlook.com>, and you also can find me at **Microsof Teams**, this is [my ID]{cid.d4bc77264710ebe2}.
 

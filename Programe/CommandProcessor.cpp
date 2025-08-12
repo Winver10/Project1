@@ -19,6 +19,10 @@ std::string CommandProcessor::processInput(const std::string& input) {
             waitingCommand = "";
             return gotoWhere(input);
         }
+        else if (waitingCommand == "open") {
+            waitingCommand = "";
+			return openWhat(input);
+        }
     }
     if (input == "hello") {
         return "Hello, user!";
@@ -32,7 +36,12 @@ std::string CommandProcessor::processInput(const std::string& input) {
         return "Please enter the number of the folder you want to open (1-4): ";
     } else if (input == "where") {
         return handleWhereCommand(where);
-    } else {
+    }
+    else if (input == "open") {
+        waitingCommand = "open";
+        return "Please enter the name of the file you want to open: ";
+    }
+    else {
         return "Unknown command. Type 'help' for available commands.";
     }
 }

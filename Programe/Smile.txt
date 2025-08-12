@@ -1,0 +1,12 @@
+Hi! I'm Smile! This is a diary of the developments in the Middle School. 
+DAY 1:
+I created a C++/CLI project in Visual Studio 2022. I know what the project is like in feature, but I don't know how to implement it.
+
+DAY 2:
+OK, I think I need someone to help me. But there is no one know coding around me. So I think Copilot is a good choice. I asked Copilot to help me to re-build the project. And it did. 
+
+DAY 3:
+I found that the new files made by Copilot is can't be optimized. I asked Copilot to help me to optimize the code. It did, but the code is still not good enough. I think I need to learn more about C++/CLI. 
+
+DAY 4:
+Oh, right! There are many developers in the would and I can ask them for help! So I created a new repository on GitHub and uploaded the project. I also wrote a README file to explain what the project is about.

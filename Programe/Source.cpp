@@ -1,7 +1,26 @@
 #include <iostream>
+#include <fstream>
 #include <string>
+#include <vector>
+#include "openProcessor.h"
 #include "Start.h"
 using namespace std;
+
+vector<string> loadList() {
+	vector<string> list;
+	string filePath = "canBeOpened.txt";
+	ifstream file(filePath);
+	if (file.is_open()) {
+		string line;
+		while (getline(file, line)) {
+			if (!line.empty()) {
+				list.push_back(line);
+			}
+		}
+		file.close();
+	}
+	return list;
+}
 
 int main()
 {
