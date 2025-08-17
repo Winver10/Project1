@@ -12,3 +12,8 @@ x64/
 x86/
 ipch/
 Project1/
+# CMake
+out/
+# System
+.DS_Store
+Desktop.ini

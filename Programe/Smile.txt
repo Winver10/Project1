@@ -10,3 +10,7 @@ I found that the new files made by Copilot is can't be optimized. I asked Copilo
 
 DAY 4:
 Oh, right! There are many developers in the would and I can ask them for help! So I created a new repository on GitHub and uploaded the project. I also wrote a README file to explain what the project is about.
+
+The END.
+
+May you have a good day! Smile! 
