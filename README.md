@@ -1,13 +1,33 @@
-# Project1 Update info
-## version 0.1 (2023/10/15) (demo)
-The structure of the project has been improved to make it easier to maintain. *(doge)*<br>
-We move the command to other files. Now, all of the commands have their own files in the "Program" folder.<br>
-## version 0.2 (2025/08/12) (for developers)
-The project has benn update to support open files with the "open" command.<br>
-There is a diary of the process of how to develop the project. It is a demo, so you *can* pass the game without reading it.<br>
-## A Big update (2025/08/17) (for all IDEs!)
-The project form .sln to CMakefile, so you can use any IDE to open the project!<br>
-The "Smile.txt" file will be cleared, so it's be easy to pass the game.<br>
+﻿# item info
 
-**For more infomation, you can read the "file.md" file in the forder "Programe".**
-*There are some unknow errors, please understand*
+## item name
+
+There is no item name here. You can call it anything. But I will call it **"Project1"**, because it's the firstt game I made. 
+
+## what's this
+
+There is a *exe* file on it, the UI of it is like the **MS DOS**. You can type commands in it. And your gole is finding the *passkey* in the forders and files. Then you can use the *passkey* to exit the game.
+
+## how to play
+
+You can use the commands to open *all of the forders* and *files* in the game. The commands I made include:<br>
+**hello**, to say hello. You will see a sinple massege;<br>
+**help**, to show all of the commands;<br>
+**exit**, to exit the game, but you need the *passkey*;<br>
+**goto**, to open a forder, or you can type "**goto *forder name***" to open faster;<br>
+**where**, to show the current forder you are in and what files in it;<br>
+**open**, to open the files with the default program.<br>
+
+## others
+
+There is no file can be opened in it, because I **can't** make files. I'm thinking how to store them and how to open. I don't want to see another **window** when I opena file. 
+
+*(At the last, I choose open the files with another window. I belive there is a better way, but I can't find it)*
+
+Another thing is, I a green hand of C++ *(Yes, it been made by Visual C++/CLI)*, so I can't add more features in it. It's the reason of I put it on **GitHub**. 
+
+And, if you can help me to build it, pleas contect me at <cty11072011@outlook.com>, and you also can find me at **Microsof Teams**, this is [my ID]{cid.d4bc77264710ebe2}.
+
+## at the last
+
+I'm student and I leant C++ for a half years. So I'm not have enough time to do that. 

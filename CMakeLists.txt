@@ -1,4 +1,4 @@
-icmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.10)
 
 project(Project1 VERSION 0.2 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 11)
@@ -15,7 +15,7 @@ add_executable(Project1 #All .cpp files
 	${CMAKE_CURRENT_SOURCE_DIR}/Program/Start.cpp
 	${CMAKE_CURRENT_SOURCE_DIR}/Program/helpProcessor.cpp
 	${CMAKE_CURRENT_SOURCE_DIR}/Program/exitProcessor.cpp
-	)
+	 "Program/Reader.h")
 
 target_include_directories(Project1
 	PRIVATE
