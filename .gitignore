@@ -17,3 +17,8 @@ out/
 # System
 .DS_Store
 Desktop.ini
+# Something we needn't
+*.exe
+*.swp
+test/
+*.un~

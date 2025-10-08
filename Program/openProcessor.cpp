@@ -19,7 +19,7 @@ std::string CommandProcessor::openWhat(const std::string& input) {
 				if (input == list) {
 					found = true;
 					openFile(list);
-					return "Opening " + list + "...";
+					return "You are already exit" + list;
 				}
 			}
 		//}
